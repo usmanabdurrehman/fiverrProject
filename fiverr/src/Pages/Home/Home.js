@@ -72,8 +72,11 @@ export default function Home() {
 						onAfterOpen={afterOpenModal}
 						onRequestClose={closeModal}
 						contentLabel="Example Modal"
+						className="ModalWrapper"
 					>
-						<Modal onCancel={closeModal}/>
+						<div className='modal-center'>
+							<Modal onCancel={closeModal}/>
+						</div>
 					</ModalWrapper>
 				</Container>
 			</div>
