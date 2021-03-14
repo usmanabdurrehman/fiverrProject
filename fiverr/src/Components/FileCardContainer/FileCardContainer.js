@@ -2,7 +2,7 @@ import React from "react";
 import { FileCard, FileCardUpload, Button } from "../";
 import "./FileCardContainer.css";
 
-export default function FileCardContainer({ data }) {
+export default function FileCardContainer({ data, onClick }) {
 	return (
 		<div className="file-card-container">
 			{data.map((d, idx) =>
@@ -17,6 +17,7 @@ export default function FileCardContainer({ data }) {
 							type="large-dark"
 							fullWidth
 							height={80}
+							onClick={onClick}
 						/>
 					</div>
 				)

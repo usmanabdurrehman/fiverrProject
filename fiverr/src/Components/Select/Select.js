@@ -2,7 +2,7 @@ import React,{useState} from 'react'
 import './Select.css'
 import SelectInput from 'react-select';
 
-export default function Select({name}) {
+export default function Select({header}) {
 
 	const [selected,setSelected] = useState(null)
 
@@ -18,13 +18,14 @@ export default function Select({name}) {
 	};
 
 	return (
-		<div>
+		<div className='select-wrapper'>
+			<h4 className='header'>{header}</h4>
 			<SelectInput
 		        value={selected}
 		        onChange={handleChange}
 		        options={options}
 		        className='select'
-	      />
+	     	/>
 		</div>
 	)
 }

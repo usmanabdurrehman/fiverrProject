@@ -1,3 +1,9 @@
 .select{
 	border-radius:30px;
 }
+
+.select-wrapper .header{
+	color:#a3a3a3;
+	margin:10px 0;
+	font-weight: 500;
+}

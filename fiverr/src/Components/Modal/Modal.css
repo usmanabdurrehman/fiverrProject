@@ -5,3 +5,26 @@
 .file-card-uploading-wrapper>div+div{
 	margin-top:20px;
 }
+
+.upload-card-button{
+	margin:20px 0;
+	height:80px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border:1.5px dashed #197BBD;
+	border-radius: 12px;
+	font-size: 17px;
+	color:#404040;
+}
+
+.button-container{
+	height: 80px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.button-container>div+div{
+	margin-left: 30px;
+}

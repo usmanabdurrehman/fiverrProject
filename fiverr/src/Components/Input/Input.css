@@ -1,0 +1,11 @@
+.input-wrapper .header{
+	font-weight: 500;
+	color:#a3a3a3;
+	margin:10px 0;
+}
+
+.input-wrapper .input{
+	border-radius:5px;
+	padding:10px;
+	border:1px solid hsl(0, 0%, 80%);
+}
