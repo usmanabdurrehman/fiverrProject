@@ -3,7 +3,7 @@ import {FileCardUploading,Button} from '../'
 import dummyData from './dummyModalData.constants'
 import './Modal.css'
 
-export default function Modal() {
+export default function Modal({onCancel}) {
 	return (
 		<div className='modal'>
 			<div className='file-card-uploading-wrapper'>
@@ -14,7 +14,7 @@ export default function Modal() {
 			</div>
 			<div className='button-container'>
 				<Button text='Submit' type='large-dark'/>
-				<Button text='Cancel' type='large-dark-invert'/>
+				<Button onClick={onCancel} text='Cancel' type='large-dark-invert'/>
 			</div>
 		</div>
 	)

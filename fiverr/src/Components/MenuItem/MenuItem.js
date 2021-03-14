@@ -4,7 +4,6 @@ import './MenuItem.css'
 export default function MenuItem({onClick,index,item:{name,selected}}) {
 	return (
 		<div onClick={e=>{
-			console.log(index)
 			onClick(index)
 		}} style={{backgroundColor:selected?'#F0F7FF':'#ffffff'}} className='menu-item'>
 			<img src={`menuicons/${name.toLowerCase()}.${selected ? 'png' : 'svg'}`}/>

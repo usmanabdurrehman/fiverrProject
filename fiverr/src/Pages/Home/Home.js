@@ -39,7 +39,7 @@ export default function Home() {
 					<Summary />
 					<Accord header="Accord 1">
 						<>
-							<Button text="Add Form" type="small-light" />
+							<Button text="Add Form" type="small-light" width={110} height={47} />
 							<div className="form-container">
 								<div className="form-grid">
 									<Select header='Dropdown 1'/>
@@ -73,7 +73,7 @@ export default function Home() {
 						onRequestClose={closeModal}
 						contentLabel="Example Modal"
 					>
-						<Modal />
+						<Modal onCancel={closeModal}/>
 					</ModalWrapper>
 				</Container>
 			</div>

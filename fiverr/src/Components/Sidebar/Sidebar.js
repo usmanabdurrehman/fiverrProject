@@ -26,7 +26,7 @@ export default function Sidebar() {
 
 	let selectOne = (idx) => {
 		let previousSelectedIndex = menuItems.findIndex(sel=>sel.selected==true)
-		let selected = menuItems
+		let selected = [...menuItems]
 		selected[previousSelectedIndex].selected = false
 		selected[idx].selected = true
 		console.log(selected)
