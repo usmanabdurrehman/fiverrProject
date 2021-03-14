@@ -1,0 +1,16 @@
+.navbar{
+	height: 100px;
+	padding:0 15px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.nav-menu{
+	display: flex;
+	align-items: center;
+}
+
+.nav-menu>div+div{
+	margin-left:20px;
+}

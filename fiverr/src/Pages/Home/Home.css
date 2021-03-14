@@ -1,0 +1,23 @@
+.home{
+	position: relative;
+}
+
+.main{
+	margin-left:230px;
+}
+
+.menuItems>div+div{
+	margin-top:20px;
+}
+
+.form-container{
+	display: grid;
+	grid-row-gap: 30px;
+	margin-top:30px;
+}
+
+.form-grid{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 30px;
+}

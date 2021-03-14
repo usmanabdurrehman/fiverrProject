@@ -1,0 +1,15 @@
+.button{
+	padding:15px;
+	background-color: blue;
+	color:white;
+	display: inline-block;
+	border-radius:10px;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.premiumIcon{
+	margin-left:8px;
+}

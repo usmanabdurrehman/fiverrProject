@@ -1,0 +1,17 @@
+.summary{
+	height: 150px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.summary h1{
+	margin:5px 0;
+	color:#404040;
+	font-size: 48px;
+}
+
+.summary p{
+	margin:4px 0;
+	color:#AEAEAE;
+}

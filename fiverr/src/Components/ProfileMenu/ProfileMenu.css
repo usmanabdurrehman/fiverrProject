@@ -1,0 +1,15 @@
+.profile-menu {
+	display: flex;
+}
+
+.profile-menu .desc {
+	font-size: 12px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-left: 5px;
+}
+
+.profile-menu .account-desc {
+	color: #aeaeae;
+}

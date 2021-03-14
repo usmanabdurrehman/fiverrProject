@@ -1,0 +1,21 @@
+.progress{
+	height:9.4px;
+	display: flex;
+	border-radius: 5px;
+}
+
+.progress-done{
+	background-color: #209D43;
+	border-radius: 5px;
+}
+
+.progress-remaining{
+	background-color: #F1F1F1;
+	border-radius: 5px;
+}
+
+.progress-wrapper{
+	height: 40px;
+	display: flex;
+	align-items: center;
+}

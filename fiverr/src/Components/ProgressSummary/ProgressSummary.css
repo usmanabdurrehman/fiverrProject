@@ -1,0 +1,41 @@
+.progress{
+	height:9.4px;
+	display: flex;
+	border-radius: 5px;
+	width:200px;
+}
+
+.progress-done{
+	background-color: #209D43;
+	border-radius: 5px;
+}
+
+.progress-remaining{
+	background-color: #F1F1F1;
+	border-radius: 5px;
+}
+
+.progress-wrapper{
+	height: 40px;
+	display: flex;
+	align-items: center;
+}
+
+.progress-wrapper>div{
+	margin-left:10px;
+}
+
+.progress-wrapper p{
+	font-size: 14px;
+}
+
+.progress-summary-wrapper h3{
+	color:#404040;
+	margin:3px 0;
+	font-weight: 500;
+}
+
+.progress-value{
+	font-size: 24px;
+	color:#696969;
+}

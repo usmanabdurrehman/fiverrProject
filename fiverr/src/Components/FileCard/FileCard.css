@@ -1,0 +1,55 @@
+.file-card{
+	height:80px;
+	display: grid;
+	grid-template-columns: 80px 1fr;
+	border:solid 1px #ddd;
+	border-radius:10px;
+	padding:0 20px;
+	transition:0.5s;
+}
+
+.Successful{
+	background-color: #FFFFFF;
+}
+
+.Error{
+	background-color: #EB575729;
+}
+
+.gray{
+	color: #AEAEAE;
+}
+
+.image-wrapper{
+	display: flex;
+	align-items: center;
+}
+
+.description-wrapper{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.description p{
+	margin:4px 0;
+	font-size: 18px;
+}
+
+.name{
+	color:#404040;
+}
+
+.size{
+	color:#AEAEAE;
+}
+
+.file-card .close-icon{
+	cursor: pointer;
+}
+
+.file-card-info{
+	display: flex;
+	justify-content: space-between;
+	padding:5px 2px;
+}

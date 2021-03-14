@@ -1,0 +1,7 @@
+.modal{
+	padding:40px;
+}
+
+.file-card-uploading-wrapper>div+div{
+	margin-top:20px;
+}
